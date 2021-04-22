@@ -8,7 +8,7 @@ import (
 )
 
 func main()  {
-	// 日志初始化
+	// 日志wewe初始化
 	Log = lib.LogInit()
 
 	// 命令解析parse
@@ -18,7 +18,7 @@ func main()  {
 
 func Serve() {
 	Boot()
-	// 路由加载
+	// 路由test加载
 	routes.LoadRouter()
 
 	// 启动监听服务
